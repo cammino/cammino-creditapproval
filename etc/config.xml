@@ -1,0 +1,80 @@
+<config>
+    <modules>
+        <Cammino_Creditapproval>
+            <version>0.0.1</version>
+            <depends>
+                <Mage_Payment />
+            </depends>
+        </Cammino_Creditapproval>
+    </modules>
+    <global>
+        <fieldsets>
+            <sales_convert_quote_payment>
+                <condition>
+                    <to_order_payment>*</to_order_payment>
+                </condition>
+            </sales_convert_quote_payment>
+        </fieldsets>
+        <helpers>
+            <creditapproval>
+                <class>Cammino_Creditapproval_Helper</class>
+            </creditapproval>
+        </helpers>
+        
+        <models>
+            <creditapproval>
+                <class>Cammino_Creditapproval_Model</class>
+            </creditapproval>
+        </models>
+
+        <resources>
+            <connection>
+                <use>core_setup</use>
+            </connection>
+            <creditapproval_setup>
+                <setup>
+                    <module>Cammino_Creditapproval</module>
+                </setup>
+            </creditapproval_setup>
+            <creditapproval_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </creditapproval_write>
+            <creditapproval_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </creditapproval_read>
+        </resources>
+   
+        <blocks>
+            <creditapproval>
+                <class>Cammino_Creditapproval_Block</class>
+            </creditapproval>
+        </blocks>
+    </global>
+  
+    <frontend>
+        <routers>
+            <creditapproval>
+                <use>standard</use>
+                <args>
+                    <module>Cammino_Creditapproval</module>
+                    <frontName>creditapproval</frontName>
+                </args>
+            </creditapproval>
+        </routers>
+    </frontend>
+  
+    <default>
+        <payment>
+            <creditapproval>
+                <active>1</active>
+                <model>creditapproval/standard</model>
+                <title>Avaliação de Crédito</title>
+                <order_status>processing</order_status>
+            </creditapproval>
+        </payment>
+    </default>
+</config>

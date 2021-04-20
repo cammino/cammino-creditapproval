@@ -1,0 +1,24 @@
+<?php
+// Needs to change instaments calc
+?>
+<?php $subtotal = Mage::getSingleton('checkout/session')->getQuote()->getSubtotal(); ?>
+<div class="form-list" id="payment_form_<?php echo $this->getMethodCode() ?>" style="display:none;">
+    <div>
+        <label>Condição*</label>
+        <select name="payment[condition]" id="payment-condition" class="input-text form-control" value="<?php echo $this->htmlEscape($this->getInfoData('condition')) ?>">
+            <option value="30">30 dias</option>
+            <option value="30/60">30/60 dias</option>
+            <?php 
+            if ($subtotal > 3000): ?>
+                <option value="30/45/60">30/45/60 dias</option>
+            <?php 
+            endif;
+            if($subtotal > 5000): ?>
+                <option value="30/60/90">30/60/90 dias</option>   
+        <?php endif; ?>
+        </select>
+    </div>
+</div>
+<div>
+    <?php echo $this->getMethod()->getConfigData('message');?>
+</div>

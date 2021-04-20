@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="46px" height="31px" viewBox="0 0 46 31" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-4">
+            <g id="Group-3">
+                <g id="Group-2">
+                    <rect id="path-1" fill="#FFFFFF" x="6" y="6" width="40" height="25" rx="4"></rect>
+                    <rect id="Rectangle-path" stroke="#CECACF" x="6.5" y="6.5" width="39" height="24" rx="4"></rect>
+                    <rect id="Rectangle-5" fill="#CECACF" fill-rule="nonzero" x="7" y="14" width="38" height="4"></rect>
+                    <rect id="path-2" fill="#FFFFFF" x="0" y="0" width="40" height="25" rx="4"></rect>
+                    <rect id="Rectangle-path" stroke="#796E7C" stroke-width="2" x="1" y="1" width="38" height="23" rx="4"></rect>
+                    <g id="Group" transform="translate(6.000000, 7.000000)" fill="#796E7C" fill-rule="nonzero">
+                        <g id="stamp">
+                            <path d="M10,8.59375 L10,7.90625 C10,7.5266032 9.70155215,7.21875 9.33339699,7.21875 L0.666689816,7.21875 C0.298447874,7.21875 0,7.5266032 0,7.90625 L0,8.59375 C0,8.9733968 0.298447874,9.28125 0.666689816,9.28125 L9.33339699,9.28125 C9.70155215,9.28125 10,8.9733968 10,8.59375 Z" id="Shape"></path>
+                            <path d="M0.714285714,9.96875 C0.714285714,10.5374593 1.15789452,11 1.70324057,11 L8.29667358,11 C8.84201963,11 9.28571429,10.5374593 9.28571429,9.96875 L9.28571429,9.625 L0.714285714,9.625 L0.714285714,9.96875 Z" id="Shape"></path>
+                            <path d="M7.14285714,2.40628357 C7.14285714,1.06417833 6.08943133,0.000358097661 4.81890505,5.97172189e-08 C3.63924795,-0.000268469886 2.7142149,0.905119981 2.53256291,1.96894021 C2.48760383,2.23165056 2.49227267,2.49391337 2.52780764,2.75 L7.11657337,2.75 C7.13213613,2.63694951 7.14285714,2.5225564 7.14285714,2.40628357 Z" id="Shape"></path>
+                            <path d="M2.85714286,3.09375 C3.11335788,3.57692233 3.91272397,4.47703654 3.71272753,5.66536858 C3.68457397,5.83368778 3.6449111,6.02140703 3.59851971,6.1875 L6.39643388,6.1875 C6.34995394,6.02092999 6.31029107,5.83249515 6.28204901,5.66322185 C6.05469579,4.30625257 6.90045328,3.55004852 7.14285714,3.09375 L2.85714286,3.09375 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
