@@ -1,14 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <config>
     <sections>
         <payment>
             <groups>
-                <creditapproval translate="label" module="creditapproval">
+                <cammino_creditapproval translate="label" module="cammino_creditapproval">
                     <label>Creditapproval - Avaliação de Crédito</label>
                     <sort_order>0</sort_order>
                     <show_in_default>1</show_in_default>
                     <show_in_website>1</show_in_website>
                     <show_in_store>1</show_in_store>
-                    
                     <fields>
                         <active translate="label">
                             <label>Enabled</label>
@@ -37,7 +37,7 @@
                             <show_in_store>0</show_in_store>
                         </title>
                     </fields>
-                </creditapproval>
+                </cammino_creditapproval>
             </groups>
         </payment>
     </sections>

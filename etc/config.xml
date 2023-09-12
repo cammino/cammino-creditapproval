@@ -15,17 +15,21 @@
                 </condition>
             </sales_convert_quote_payment>
         </fieldsets>
-        <helpers>
-            <creditapproval>
-                <class>Cammino_Creditapproval_Helper</class>
-            </creditapproval>
-        </helpers>
-        
         <models>
-            <creditapproval>
+            <cammino_creditapproval>
                 <class>Cammino_Creditapproval_Model</class>
-            </creditapproval>
+            </cammino_creditapproval>
         </models>
+        <blocks>
+            <cammino_creditapproval>
+                <class>Cammino_Creditapproval_Block</class>
+            </cammino_creditapproval>
+        </blocks>
+        <helpers>
+            <cammino_creditapproval>
+                <class>Cammino_Creditapproval_Helper</class>
+            </cammino_creditapproval>
+        </helpers>
 
         <resources>
             <connection>
@@ -47,12 +51,6 @@
                 </connection>
             </creditapproval_read>
         </resources>
-   
-        <blocks>
-            <creditapproval>
-                <class>Cammino_Creditapproval_Block</class>
-            </creditapproval>
-        </blocks>
     </global>
   
     <frontend>
@@ -69,12 +67,12 @@
   
     <default>
         <payment>
-            <creditapproval>
+            <cammino_creditapproval>
                 <active>1</active>
-                <model>creditapproval/standard</model>
+                <model>Cammino_Creditapproval_Model_Standard</model>
                 <title>Avaliação de Crédito</title>
                 <order_status>processing</order_status>
-            </creditapproval>
+            </cammino_creditapproval>
         </payment>
     </default>
 </config>

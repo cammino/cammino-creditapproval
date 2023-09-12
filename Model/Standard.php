@@ -1,9 +1,9 @@
 <?php
 class Cammino_Creditapproval_Model_Standard extends Mage_Payment_Model_Method_Abstract {
 
-    protected $_code = 'creditapproval';
-    protected $_formBlockType = 'creditapproval/form_creditapproval';
-    protected $_infoBlockType = 'creditapproval/info_creditapproval';
+    protected $_code = 'cammino_creditapproval';
+    protected $_formBlockType = 'cammino_creditapproval/form_creditapproval';
+    protected $_infoBlockType = 'cammino_creditapproval/info_creditapproval';
 
     public function assignData($data)
     {
